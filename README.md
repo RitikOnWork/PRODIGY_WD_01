@@ -4,7 +4,7 @@ A clean, modern, and fully responsive landing page designed to work flawlessly a
 
 ## 📸 Preview
 
-![Landing Page Screenshot](preview.png) *(replace with your screenshot file)*
+![Landing Page Screenshot](preview.png) *(Screenshot on Landing page)*
 
 ## ✨ Features
 
