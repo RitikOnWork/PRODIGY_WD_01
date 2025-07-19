@@ -18,7 +18,7 @@ A clean, modern, and fully responsive landing page designed to work flawlessly a
 
 - HTML5  
 - CSS3  
-- JavaScript (Vanilla)
+- JavaScript
 
 
 ## 🚀 Getting Started
