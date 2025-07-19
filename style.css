@@ -1,0 +1,78 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Navigation Menu */
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.6); /* soft white with transparency */
+  backdrop-filter: blur(10px);         /* glass effect */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  z-index: 1000;
+  padding: 15px 30px;
+  border-bottom: 1px solid rgba(200, 200, 200, 0.2);
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 25px;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  padding-bottom: 3px;
+}
+
+.nav-menu li a:hover {
+  color: #0077ff;
+  border-bottom: 2px solid #0077ff;
+}
+
+/* Change style when scrolled */
+#navbar.scrolled {
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Content */
+.content {
+  margin-top: 100px;
+  padding: 40px;
+}
+
+/* Navigation Menu */
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.4); /* light glassy look */
+  backdrop-filter: blur(10px);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  z-index: 1000;
+  padding: 15px 30px;
+  border-bottom: 1px solid rgba(200, 200, 200, 0.2);
+}
+
+#navbar.scrolled {
+  background-color: #ffffff; /* Solid white on scroll */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  backdrop-filter: none;
+}
+
